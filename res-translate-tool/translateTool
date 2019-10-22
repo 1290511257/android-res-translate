@@ -1,0 +1,6 @@
+#!/bin/bash
+cp -f /usr/local/lib/node_modules/res-translate-tool/translate.js ./
+chmod a+x ./translate.js
+node translate.js
+rm -f ./translate.js
+

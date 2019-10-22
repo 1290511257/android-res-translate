@@ -1,0 +1,16 @@
+{
+  "name": "res-translate-tool",
+  "version": "1.0.1",
+  "description": "This tool helps you translate Android string resources by using google translate API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuxiong",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "file:fs",
+    "google-translate-api": "file:google-translate-api",
+    "xmldom": "file:xmldom"
+  }
+}
